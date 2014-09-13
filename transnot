@@ -4,6 +4,7 @@
 ## Make sure to add in separate lines the follwing in your USB and NAS>BitTorrent Client>Transmission Custom Configuration
 ## "script-torrent-done-enabled": true,
 ## "script-torrent-done-filename": "/opt/sh/transnot",
+## Change "/opt/sh/transnot" to the directly where this script is saved and make this script executable
 
 TO="your@emailhere.com" ## Change to your email address
 FROMNAME="Cisco E4200"  ## Change to your router make and model
