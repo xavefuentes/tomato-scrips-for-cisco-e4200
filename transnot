@@ -1,7 +1,12 @@
 #!/bin/sh
 
-TO="xfuentes@gmail.com"
-FROMNAME="Cisco E4200"
+## This script will send a notification email once a torrent has been completely downloaded.
+## Make sure to add in separate lines the follwing in your USB and NAS>BitTorrent Client>Transmission Custom Configuration
+## "script-torrent-done-enabled": true,
+## "script-torrent-done-filename": "/opt/sh/transnot",
+
+TO="your@emailhere.com" ## Change to your email address
+FROMNAME="Cisco E4200"  ## Chante to your router make and model
 torrent_name="$TR_TORRENT_NAME"
 torrent_version="$TR_APP_VERSION"
 
