@@ -1,7 +1,7 @@
 tomato-scrips-for-cisco-e4200
 =============================
 
-my personal scripts for the cisco e4200 router tomatousb by shibby
+My personal scripts for the Cisco E4200 router running tomatousb by shibby.
 
 ## Available scripts
 `transnot` transmission notification when torrent download is finished
